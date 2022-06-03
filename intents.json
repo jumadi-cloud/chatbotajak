@@ -1,0 +1,94 @@
+{
+  "intents": [
+    {
+      "tag": "sapaan",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Selamat pagi",
+        "Selamat siang",
+        "Hello",
+        "Selamat sore",
+        "Apa kabar",
+        "Saya mau bertanya",
+        "Selamat malam"
+      ],
+      "responses": [
+        "Selamat Datang.Di DIGISAFE. ajukan pertanyaan tentang kami : 1.apa itu K3? 2.apa manfaat K3? 3.apa kegunaan K3?"
+      ]
+    },
+    {
+      "tag": "pertnyaan 1",
+      "patterns": [
+        "Apa itu K3?",
+        "Apa itu k3?",
+        "apa itu k3?", 
+        "apa itu k3?"
+      ],
+      "responses": [
+        "Keselamatan dan Kesehatan Kerja yang merupakan kepanjangan dari K3 adalah segala kegiatan untuk menjamin dan melindungi keselamatan dan kesehatan tenaga kerja melalui upaya pencegahan kecelakaan kerja dan penyakit akibat kerja (PP 50 Tahun 2012)."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Terima kasih", 
+        "Terima kasih atas informasinya",
+        "Terima kasih banyak",
+        "Thanks",
+        "Thank you", 
+        "That's helpful", 
+        "Thank's a lot!"
+      ],
+      "responses": ["terima kasih telah berkunjung DI WEB site kami"]
+    },
+    {
+      "tag": "manfaat K3",
+      "patterns": [
+        "Apa Manfaat K3?",
+        "Apa Manfaat k3?",
+        "apa manfaat k3?",
+        "apa manfaat K3?"
+      ],
+      "responses": [
+        "Salah satunya adalah perlindungan terhadap fasilitas produksi dan pekerja dari ancaman kecelakaan kerja. Kecelakaan kerja bisa menyebabkan loss time untuk perusahaan. Dengan menerapkan K3, perusahaan bisa mengurangi loss time dan proses produksi pun berjalan lancar."
+      ]
+    },
+    {
+      "tag": "kegunaan K3",
+      "patterns": [
+        "Apa kegunaan K3?",
+        "Apa kegunaan k3?",
+        "apa kegunaan k3?",
+        "apa kegunaan K3?"
+      ],
+      "responses": [
+        "K3 berperan untuk menjamin setiap tenaga kerja yang mendapat perlindungan dari kesehatan dan keselamatan selama bekerja, menjamin setiap sumber produksi yang layak dan aman digunakan sehingga mengurangi resiko kerugian yang di akibatkan oleh kecelakaan kerja."
+      ]
+    },
+    {
+      "tag": "contoh",
+      "patterns": [
+        "bagaimana kabar kamu?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "baik-baik saja"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}

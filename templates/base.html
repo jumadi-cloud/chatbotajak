@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Chatbot</title>
+</head>
+<body>
+<div class="container">
+    <div class="chatbox">
+        <div class="chatbox__support">
+            <div class="chatbox__header">
+                <div class="chatbox__image--header">
+                    <img src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-5--v1.png" alt="image">
+                </div>
+                <div class="chatbox__content--header">
+                    <h4 class="chatbox__heading--header">Chat support</h4>
+                    <p class="chatbox__description--header">Hi. My name is Sam. How can I help you?</p>
+                </div>
+            </div>
+            <div class="chatbox__messages">
+                <div></div>
+            </div>
+            <div class="chatbox__footer">
+                <input type="text" placeholder="Write a message...">
+                <button class="chatbox__send--footer send__button">Send</button>
+            </div>
+        </div>
+        <div class="chatbox__button">
+            <button><img src="{{ url_for('static', filename='images/chatbox-icon.svg') }}" /></button>
+        </div>
+    </div>
+</div>
+
+    <script>
+        $SCRIPT_ROOT = {{ request.script_root|tojson }};
+    </script>
+    <script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+
+<!--web-->
+
+<div class="atas">
+
+    <div class="judul">
+        <h1 class="awal">SAFETY FIRST</h1>
+        <ul>
+            <li><a href="#">KONTAK</a></li>
+            <li><a href="#">INSTAGRAM</a></li>
+            <li><a href="#">YOUTUBE</a></li>
+        </ul>
+    </div>
+
+    <div class="foto">
+        <img src="../static/images/k3-3-300x150.png" alt="cara" height="400" >
+    </div>
+
+    <div class="pengertian">
+        <h2>Kesehatan Dan Keselamatan Kerja</h2>
+        <p class="penulis">Ditulis oleh <a href="#">MOKHAMMAD FATIKHUL IKHSAN,</a> pada 1 juni 2022</p>
+    </div>
+
+    <div class="p1">
+        <h3>PENGERTIAN</h3>
+        <P>Pengertian K3 Menurut Filosofi Mangkunegara, Keselamatan dan Kesehatan Kerja (K3) adalah suatu pemikiran dan upaya untuk menjamin keutuhan dan kesempurnaan jasmani maupun rohani tenaga kerja khususnya dan manusia pada umumnya serta hasil karya dan budaya menuju masyarakat adil dan makmur. Pengertian K3 Menurut Keilmuan Keselamatan dan Kesehatan Kerja (K3) adalah semua Ilmu dan Penerapannya untuk mencegah terjadinya kecelakaan kerja, penyakit akibat kerja (PAK), kebakaran, peledakan dan pencemaran lingkungan. Pengertian K3 Menurut OHSAS 18001:2007 Keselamatan dan Kesehatan Kerja (K3) adalah semua kondisi dan faktor yang dapat berdampak pada keselamatan dan kesehatan kerja tenaga kerja maupun orang lain (kontraktor, pemasok, pengunjung dan tamu) di tempat kerja.</P>
+
+        <h3>MANFAAT K3 BAGI PERUSAHAAN</h3>
+        <P>Bagi perusahaan, penerapan K3 memungkinkan produktivitas tetap optimal dalam berbagai keadaan. Secara finansial, K3 membantu mengurangi pengeluaran, terutama untuk biaya kesehatan dan asuransi karyawan.</P>
+        <p>Di samping itu, perusahaan juga akan mendapatkan citra positif dari masyarakat. Dari pemerintah, karena penerapan K3 merupakan kewajiban yang telah diregulasi secara khusus. Atau dari masyarakat umum yang akan memberikan kepercayaan lebih, bahkan penghargaan bagi perusahaan yang menerapkan K3 dengan baik.</p>
+
+        <h3>MANFAAT K3 BAGI PEKERJA</h3>
+        <P>Di lingkungan internal perusahaan, karyawan dapat memahami bahaya dan risiko pekerjaannya, mencegah terjadinya kecelakaan kerja, bertindak dalam situasi darurat, serta melaksanakan hak dan kewajibannya berkaitan dengan peraturan K3.</P>
+        <p>Tentunya, penerapan tersebut juga akan bermanfaat secara personal. Mereka dapat tetap memiliki penghasilan dan berkontribusi terhadap ekonomi keluarga. Selain itu, penerapan K3 juga dapat menghindarkan dirinya dari penyakit yang mungkin terbawa dari lingkungan kerja.</p>
+
+        <h3>MANFAAT K3 BAGI MASYARAKAT DAN NEGARA</h3>
+        <P>K3 juga bermanfaat luas bagi masyarakat dan negara. Perusahaan menjaga aktivitasnya, sehingga turut memberikan keamanan dan kenyamanan bagi lingkungan sekitarnya. Para karyawan pun dapat terus berkontribusi dengan baik di masyarakat. Perekonomian keluarga tetap terjaga, wawasan tentang K3 pun dapat diterapkan di masyarakat.</P>
+        <p>Kesehatan dan keamanan lingkungan berdampak positif keberlangsungan hidup masyarakat suatu negara. Perusahaan-perusahaan yang menerapkan K3 dengan baik dapat berkontribusi dalam peningkatan perekonomian nasional. Tentu itu akan berdampak besar bagi kemajuan, serta citra positif  negara di mata internasional.</p>
+
+        <h3>TUJUAN K3</h3>
+        <ol>
+            <li>Melindungi keselamatan karyawan dalam melakukan pekerjaannya untuk kesejahteraan hidup dan meningkatkan produktivitas nasional.</li>
+            <li>Menjamin keselamatan setiap orang lain yang berada di tempat kerja.</li>
+            <li>Memelihara sumber produksi dan mengatur penggunaannya secara aman dan efisien.</li>
+        </ol>
+ 
+    </div>
+
+    <div class="footer">
+        <p class="copy">Copyright 2022.JUMATEC KELOMPOK 8</p>
+    </div>
+
+
+</div>
+
+</body>
+
+
+</html>
